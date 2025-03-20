@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__menu">
+            <a class="header__menu__link" href="index.html">Home</a>
+            <a class="header__menu__link" href="about.html">Sobre mí</a>
+            <a class="header__menu__link" href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="presentacion">
+        <section class="presentacion__contenido">
+            <div class="presentacion__enlaces">
+                <h2 class="presentacion__enlaces__subtitulo">Contacto</h2>
+
+                <form class="presentacion__formulario">
+                    <fieldset>
+                        <legend class="presentacion__contactame">Contáctame</legend>
+
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required autocomplete="off">
+
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Tu número" required autocomplete="off">
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required autocomplete="off">
+
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+                        <button type="submit">Enviar</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        
+        <img src="./assets/Imagen.png" alt="Foto de Aristeo Maya Corona">
+    </main>
+
+    <footer class="footer">
+        <p>Desarrollado Teo Maya con Alura Latam</p>
+    </footer>
+</body>
+
+</html>

@@ -28,6 +28,83 @@ body{
     padding: 2% 0% 0% 15%;
 }
 
+/* Estilos del formulario */
+.presentacion__formulario {
+    padding: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    
+    
+    
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 20px;
+    font-family: var(--fuente-montserrat);
+}
+
+label {
+    font-family: var(--fuente-montserrat);
+    
+}
+
+input, textarea {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid var(--color-terciario);
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-secundario);
+    font-family: var(--fuente-montserrat);
+    background-color: var(--color-primario);
+    padding: 15px;
+    margin-top: 26px;
+    margin-bottom: 18px;
+    
+    
+}
+
+.presentacion__contactame{
+    margin-bottom: 18px;
+}
+
+textarea {
+    resize: none;
+    margin-top: 26px;
+    
+    
+}
+
+button {
+    background-color: var(--color-terciario);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 18px;
+}
+
+button:hover {
+    background-color: var(--color-hover);
+}
+
+
+/* Hasta aqui llega */
+
+
 .header__menu{
     display: flex;
     gap: 80px;
@@ -143,3 +220,6 @@ body{
         width: auto;
     }
 }
+
+
+
